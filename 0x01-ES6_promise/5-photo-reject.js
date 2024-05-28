@@ -1,4 +1,4 @@
-// Writing and importing a function that returns failed promises.
+// Writing and importing a function.
 export default function uploadPhoto(filename) {
-    return Promise.reject(Error(`${filename} cannot be processed`));
-  }
+  return Promise.reject(Error(`${filename} cannot be processed`));
+}
